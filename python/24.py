@@ -18,7 +18,7 @@ class bank:
 def main():
     p1=None
     while 1:
-        choice=int(input("1.create\n2.deposit\n3.withdraw\n4.display\n5.exit"))
+        choice=int(input("1.create\n2.deposit\n3.withdraw\n4.display\n5.exit \nEnter your choice:"))
         if choice==1:
             acc_name=input("Enter your accnt name: ")
             acc_num=int(input("Enter your accnt number: "))
