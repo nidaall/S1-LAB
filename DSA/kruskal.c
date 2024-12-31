@@ -11,7 +11,7 @@ int find(int i){
 	return i; 
 } 
 						  
-int uni(int i,int j){
+int union(int i,int j){
 	if(i!=j){  
 		parent[j]=i; 
 		return 1; 
